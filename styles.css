@@ -1,0 +1,79 @@
+.pokemon-card {
+  width: 300px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid grey 12px;
+  border-radius: 12px;
+  margin: 30px;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+body {
+  font-family: "pixelify sans";
+}
+
+.pokemon-image {
+  border: solid grey 6px;
+  width: 200px;
+  height: 200px;
+}
+
+.pokemon-types {
+  margin: -10px 0 16px 0;
+  display: flex;
+  gap: 34px;
+}
+
+.pokemon-stat {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pokemon-stats {
+  width: 80%;
+}
+
+.pokemon-id {
+  margin-top: -16px;
+}
+
+.pokemon-name {
+  margin-top: 6px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stage1 .pokemon-image {
+  background-image: url(images/imagebg1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-image: url(images/borderimage1.jpg) 2;
+}
+
+.stage2 .pokemon-image {
+  background-image: url(images/imagebg2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-image: url(images/borderimage2.jpg) 2;
+}
+
+.stage3 .pokemon-image {
+  background-image: url(images/imagebg3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-image: url(images/borderimage3.jpg) 2;
+}
+
+.pokemon-card.plante {
+  background-image: url(images/type1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: solid #a275ad 12px;
+}
